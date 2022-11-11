@@ -21,3 +21,27 @@
     background-size: cover;
     background-position: center;
 }
+
+.selected-tag{
+    width:100%;
+    box-sizing: border-box;
+    padding:10px;
+    background-color:white;
+    border-radius:5px;
+    font-size:20px;
+    margin-left:40px;
+}
+
+.return-button{
+    background-color: black;
+    width: fit-content;
+    color: white;
+    padding:15px;
+    opacity:0.8;
+    transition:0.5s;
+    cursor:pointer;
+    margin-left:40px;
+}
+.return-button:hover{
+    opacity:1;
+}

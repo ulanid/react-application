@@ -1,0 +1,15 @@
+.card-article {
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 30px 40px;
+    overflow: hidden;
+  }
+  
+  .article-header {
+    font-size: 36px;
+    color: black;
+  }
+  

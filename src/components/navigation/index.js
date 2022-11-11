@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import './style.css';
 
 function Navigation(){
@@ -9,11 +10,11 @@ function Navigation(){
             <hr/>
             <div id="text" class="denali">Denali is a simple responsive blog template. Easily add new posts using the Editor or change layout and design using the Designer</div>
             <hr/>
-            <div class="groups">
-                <a className="main">home</a>
-                <a>about</a>
-                <a>contact</a>
-            </div>
+            <ul className="menu">
+        <li><Link to='/'>HOME</Link></li>
+        <li><Link to='/about'>ABOUT</Link></li>
+        <li><Link to='/contact'>CONTACT</Link></li>
+        </ul>
             <hr/>
             <div className="icons">
                 <div><a href="a"><img src="https://assets.website-files.com/5e4b1a8c95e491ce78265a6f/5e4b1a8c95e491addf265a8e_social-03.svg"></img></a></div>
