@@ -1,10 +1,13 @@
 import './App.css';
-import Header from './components/header';
+import Menu from './components/menu';
+import MenuItem from './components/menu/menu-item';
+
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Menu/>
+      <MenuItem/>
       
     </div>
   );
