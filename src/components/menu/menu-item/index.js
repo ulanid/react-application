@@ -7,7 +7,7 @@ function SubMenuComponent(items, show){
         classList += ' show';
     }
     return(
-        <div className="sub-menu">
+        <div className={classList}>
             {items.map(elem => <div>{elem.title}</div>)}
         </div>
     );
