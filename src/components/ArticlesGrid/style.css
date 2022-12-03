@@ -1,0 +1,12 @@
+
+.articles-grid {
+    margin-top: 3vh;
+    margin-left: 15vw;
+    width: 70vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 3vw;
+    border-bottom: 1px dotted gray;
+    padding-bottom: 5vh;
+}

@@ -1,0 +1,31 @@
+.article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-image {
+    margin-top: 1.5em;
+    width: 100px;
+    height: 100px;
+    background-color: #333333;
+}
+
+.article-content {
+    width: 80%;
+}
+
+.article-content > h3 {
+    font-family: "Caviar Dreams", Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+
+.article-content > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #666666;
+}
+
+.article-content > span {
+    color: #FF9900;
+    float: right;
+}
