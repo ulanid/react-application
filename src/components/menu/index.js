@@ -3,33 +3,69 @@ import './style.css';
 import MenuItem from "./menu-item";
 
 const menuData = [
- { title: 'homepage' },
+ { title: 'HOMEPAGE' },
  {
-  title: 'pages',
+  title: 'PAGES',
   items: [
-   { title: 'page 1' },
-   { title: 'page 2' },
-   { title: 'page 3' },
-   { title: 'page 4' },
+   { title: 'Full Width Content' },
+   { title: 'Content + Left Sidebar' },
+   { title: 'Content + Right Sidebar' },
+   { title: 'Content + Both Sidebar' },
+   { title: 'Contact' },
+   { title: '404' },
+   { title: 'Testimonials' },
+   { title: 'About Us' },
+   { title: 'Team Member' },
+   { title: 'FAQ' },
   ]
  },
  {
-  title: "elements",
+  title: "ELEMENTS",
   items: [
-   { title: 'page A' },
-   { title: 'page B' },
-   { title: 'page C' },
-   { title: 'page D' },
+   { title: 'Buttons' },
+   { title: 'Alert Messages' },
+   { title: 'Font Icons' },
+   { title: 'Call to Action' },
+   { title: 'Columns' },
+   { title: 'Columns - No Gutter' },
+   { title: 'Lists' },
+   { title: 'Accordions' },
+   { title: 'Tabs' },
+   { title: 'Toggles' },
+   { title: 'Pricing Tables' },
   ]
  },
- { title: 'elemnets 2' },
- {
-  title: 'ABCD',
+ { title: 'PORTFOLIO LAYOUTS' ,
   items: [
-   { title: 'ABCD 1' },
-   { title: 'ABCD 2' },
+   { title: 'Full Width Portfolio' },
+   { title: '2 Column Grid' },
+   { title: '2 Col. Grid + Left Sidebar' },
+   { title: '2 Col. Grid + Right Sidebar' },
+   { title: '2 Col. Grid + Both Sidebars' },
+   { title: '3 Column Grid' },
+   { title: '3 Col. Grid + Left Sidebar' },
+   { title: '3 Col. Grid + Right Sidebar' },
+   { title: '3 Col. Grid + Both Sidebars' },
+   { title: '4 Column Grid' },
   ]
- }
+ },
+ {title: 'GALLERY LAYOUTS' ,
+ items: [
+    { title: 'Full Width Gallery'},
+    { title: '2 Column Grid' },
+    { title: '2 Col. Grid + Left Sidebar' },
+    { title: '2 Col. Grid + Right Sidebar' },
+    { title: '2 Col. Grid + Both Sidebars' },
+    { title: '3 Column Grid' },
+    { title: '3 Col. Grid + Left Sidebar' },
+    { title: '3 Col. Grid + Right Sidebar' },
+    { title: '3 Col. Grid + Both Sidebars' },
+    { title: '4 Column Grid' },
+    { title: '5 Column Grid' },
+ ]
+},
+{title: 'LINK TEXT' },
+{title: 'A VERY LONG LINK TEST' },
 ];
 
 function Menu () {

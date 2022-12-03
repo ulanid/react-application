@@ -1,9 +1,12 @@
 .menu-item {
-    margin: 0 5px;
+    margin: 15px 15px;
     transition: 0.5s;
     cursor: pointer;
-  
+    font-weight: bold;
+    font-size: 14px;
     position: relative;
+    left: 12vw;
+
   }
   
   .menu-item > span:hover {
@@ -11,11 +14,15 @@
   }
   
   .sub-menu {
-    width: 100px;
+    /* margin-top:25px;*/
+    width: 200px;
     position: absolute;
     background-color: black;
     display: none;
     z-index: 10;
+    padding:7px;
+    font-weight:400;
+    color:#FFFFFF;
   }
   
   .sub-menu:hover {
@@ -23,7 +30,7 @@
   }
   
   .sub-menu > div {
-    margin: 5px 2.5px;
+    margin: 12px 2.5px;
   }
   
   .show {

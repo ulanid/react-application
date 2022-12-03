@@ -3,7 +3,7 @@ import './style.css';
 // https://www.npmjs.com/package/react-material-ui-carousel
 import Carousel from 'react-material-ui-carousel';
 
-const colors = ['red', 'blue', 'green', 'pink'];
+const colors = ['rgb(219, 110, 0)', 'rgb(153, 83, 100)', 'rgb(78, 136, 156)'];
 // const sentences = [
 //  'Officia Lorem sunt laborum incididunt fugiat nulla reprehenderit pariatur eu nisi commodo non tempor commodo.',
 //  'Anim nulla eiusmod Lorem incididunt aute laborum non.',

@@ -1,11 +1,11 @@
 .big-article-grid {
     margin-top: 3vh;
-    padding-bottom: 10vh;
+    padding-bottom: 13vh;
     width: 70vw;
-    margin-left: 15vw;
     height: 50vh;
+    margin-left: 15vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    gap: 3vw;
+    gap: 1vw;
 }
