@@ -1,13 +1,13 @@
 import './App.css';
 import Menu from './components/menu';
-import MenuItem from './components/menu/menu-item';
+import MyCarousel from './components/carousel';
 
 
 function App() {
   return (
     <div className="App">
       <Menu/>
-      <MenuItem/>
+      <MyCarousel />
       
     </div>
   );
