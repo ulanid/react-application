@@ -35,6 +35,7 @@ hr{
     color:#aaa;
     margin:20px;
     line-height: 1.8;
+    
 }
 .main{
     color: #333;
@@ -55,8 +56,8 @@ hr{
     aspect-ratio:1/1;
     padding:5px;
     box-sizing: border-box;
-   
 }
+
 img{
     vertical-align:middle;
     
@@ -68,8 +69,33 @@ img{
     letter-spacing:1px;
 }
 a{
+    text-decoration: none;
+    color: #aaa;
     transition:0.3s;
 }
 a:hover{
     color:#333;
+}
+
+ul{
+    padding:0;
+    margin:20px;
+}
+.menu > li {
+    
+    list-style-type: none;
+    text-transform: uppercase;
+    margin: 10px 0px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.35s;
+    font-weight: bold;
+}
+  
+  .menu > li:hover {
+    color: black;
+}
+  
+  .menu > li.selected {
+    color: black;
 }
