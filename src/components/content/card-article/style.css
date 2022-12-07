@@ -11,5 +11,10 @@
   .article-header {
     font-size: 36px;
     color: black;
+    margin:30px;
+  }
+
+  .article-text{
+    margin:30px;
   }
   
