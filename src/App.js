@@ -9,7 +9,7 @@ function App () {
     console.log(value);
     setCityName(value)
   };
-}
+
 
 
 function App() {
@@ -39,5 +39,5 @@ function App() {
   </div>
   );
 }
-
+}
 export default App;
