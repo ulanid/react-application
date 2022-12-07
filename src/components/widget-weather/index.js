@@ -10,7 +10,7 @@ function WidgetWeather (props) {
   setIsLoad(true);
   // https://openweathermap.org/current#current_JSON
   axios.get(
-   `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&apiKey=6490ea3ba3c851128f51015075087ee2`
+   `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&apiKey=ca8bdc158508eba2f56785abf36d0f94`
   ).then((response) => {
    console.log('response:', response.data);
    setWeatherData(response.data);
