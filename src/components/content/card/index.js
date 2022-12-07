@@ -7,7 +7,7 @@ function Card (props) {
    <div
     onClick={props.setSelectedCard}
     className="card-image"
-    style={{ backgroundImage: `url(${props.image})` }}
+    style={{ backgroundImage: `url(${window.location.origin}${props.image})` }}
    ></div>
    <div
     onClick={props.setSelectedCard}
