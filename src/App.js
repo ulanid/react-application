@@ -3,7 +3,7 @@ import './App.css';
 import Navigation from './components/navigation';
 import Content from './components/content';
 import About from './components/about';
-import PageNotFound from './components/404';
+import Contact from './components/content/contact';
 
 function App() {
   return (
@@ -11,12 +11,13 @@ function App() {
     <div className="App">
       <Navigation />
       <Routes>
+      <Route element={<Content/>} path='/'/>
         <Route path="/" element={<Content type={'all'}/>} >
-          <Route path='/card/:cardId' element={<Content />} />
-        </Route>
-        <Route path='/about' element={<About />} />
+        <Route path='/card/:cardId' element={<Content />} />
+        </Route> 
+        <Route element={<About/>} path='/about'/>
 
-        <Route path='*' element={<PageNotFound />} />
+        <Route element={<Contact/>} path='/contact'/>
       </Routes>
     </div>
   </BrowserRouter>
