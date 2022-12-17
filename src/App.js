@@ -3,7 +3,7 @@ import Menu from './components/menu';
 import MyCarousel from './components/carousel';
 import ArticlesGrid from './components/ArticlesGrid';
 import BigArticleGrid from './components/BigArticlesGrid';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 
 function App() {
   return (
