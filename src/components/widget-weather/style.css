@@ -1,3 +1,6 @@
+*{
+  background-color: #181824;
+}
 .widget-weather {
     width: 600px;
     aspect-ratio: 1 / 0.8;
