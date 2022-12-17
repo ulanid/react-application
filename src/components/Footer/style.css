@@ -138,3 +138,9 @@ footer {
     border-color: #666666;
     cursor:pointer;
 }
+
+@media (max-width: 768px) {
+    .footer-content{
+        flex-direction: column;
+    }
+  } 
