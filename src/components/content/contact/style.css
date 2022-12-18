@@ -2,22 +2,50 @@
     width: 75%;
     height: 100%;
     background-color: whitesmoke;
-    padding: 60px 0px 0px 60px;
+    padding: 40px 0px 0px 40px;
     position: absolute;
     right: 0;
     top: 0;
+    
   }
   .content_in_contact{
-    width:80%;
-    padding: 30px 0px 0px 30px;
+    width:90%;
+    margin:20px;
+    padding: 20px 0px 0px 30px;
     background-color: white;
     font-size: 13px;
+    border-radius:10px;
   }
   input{
-    margin: 15px 0px 15px 0px;
+    padding:10px;
+    margin: 0px;
+    border:0.5px solid #aaa;
+    border-radius:5px;
+    width:90%;
   }
-  #big_input{
-    width: 100vh;
-    height: 100px;
+
+  h1{
+    font-size:30px;
+    font-weight:500;
+    color:#333;
   }
-  
+  h3{
+    font-weight:500;
+    color:#333;
+  }
+  p{
+    color:#333;
+    margin:0px;
+    width:95%;
+  }
+  button{
+    margin-top:20px;
+    cursor:pointer;
+  }
+  .form-textarea{
+    width:90%;
+    border-radius:5px;
+    font-family:arial;
+    padding:10px;
+    border:0.5px solid #aaa;
+  }

@@ -17,15 +17,17 @@ function Contact () {
     <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod. 
       Etiam porta sem malesuada magna mollis euismod. Aenean<br/>  eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
       </p>
-
+      <form method="post" action="https://www.w3resource.com/html-css-exercise/basic/solution/input-required-answer-demo.php">
      <h3>Name</h3>
-     <input/>
+     <input type="text" placeholder="Enter your name" required></input>
      <h3>Email adress</h3>
-     <input/>
+     <input type="text" placeholder="Enter your email address" required></input>
      <h3>Message</h3>
-     <input id="big_input"/>
+     <textarea class="form-textarea" rows="5" placeholder="Message" required></textarea>
+     
      <br/>
       <button>Submit</button>
+      </form>
     </div>
   
  
