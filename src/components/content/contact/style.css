@@ -1,24 +1,23 @@
 .contact{
-    width: 75%;
-    height: 100%;
-    background-color: whitesmoke;
-    padding: 40px 0px 0px 40px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    
+    width: 77%;
+    background-color:#f0f0f0;
+    box-sizing: border-box;
+    min-height:100vh;
+    padding:20px;
+
   }
   .content_in_contact{
     width:90%;
-    margin:20px;
-    padding: 20px 0px 0px 30px;
-    background-color: white;
+    margin:40px 40px;
+    padding: 0px 0px 0px 0px;
     font-size: 13px;
     border-radius:10px;
+    box-sizing: border-box;
+    background-color: #fff;
   }
   input{
+    margin-left:40px;
     padding:10px;
-    margin: 0px;
     border:0.5px solid #aaa;
     border-radius:5px;
     width:90%;
@@ -30,19 +29,32 @@
     color:#333;
   }
   h3{
+    margin-top:10px;
     font-weight:500;
     color:#333;
   }
   p{
+    
     color:#333;
-    margin:0px;
+    margin-left:40px;
     width:95%;
   }
   button{
-    margin-top:20px;
+    background-color: black;
+    width: fit-content;
+    color: white;
+    padding:15px;
+    opacity:0.8;
+    transition:0.5s;
     cursor:pointer;
+    margin-left:40px;
+    
   }
+  .button:hover{
+    opacity:1;
+}
   .form-textarea{
+    margin-left:40px;
     width:90%;
     border-radius:5px;
     font-family:arial;
