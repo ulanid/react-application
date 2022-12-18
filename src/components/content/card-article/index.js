@@ -3,15 +3,32 @@ import './style.css';
 
 const getHeaderComponent = (text) => {
   return (
-    <div className='article-header'>{text}</div>
+    <div className='article-header article-margin'>{text}</div>
   );
 };
 
 const getTextComponent = (text) => {
   return (
-    <div className='article-text'>{text}</div>
+    <div className='article-text article-margin'>{text}</div>
   );
 };
+
+const getSubBlockComponent = (text) => {
+  return (
+    <div className='article-sub-block article-margin'>{text}</div>
+  );
+};
+
+const getListComponent = (elems) => {
+  return (
+    <ul className='article-list article-margin'>
+      {elems.map((e) => {
+        return <li>{e}</li>;
+      })}
+    </ul>
+  );
+};
+
 
 function CardArticle (props) {
   const { elem } = props;
@@ -36,6 +53,12 @@ function CardArticle (props) {
             }
             case 'text': {
               return getTextComponent(el.text);
+            }
+            case 'sub-block': {
+              return getSubBlockComponent(el.text);
+            }
+            case 'list': {
+              return getListComponent(el.elems);
             }
             default: { }
           }

@@ -1,10 +1,8 @@
 .prop {
-    width: 75%;
-    height: 100%;
-    padding: 10px 0px 0px 10px;
-    position: absolute;
-    background-color: whitesmoke;
-    right: 0;
-    top: 0;
+  width:77%;
+  min-height:100vh;
+  padding:20px;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+
   }
-  
