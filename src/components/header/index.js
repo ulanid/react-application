@@ -68,12 +68,12 @@ const menuData = [
 {title: 'A VERY LONG LINK TEST' },
 ];
 
-function Menu () {
+function Header () {
 
  return (
   <header>
    {
-    menuData.map(item => <MenuItem title={item.title} items={item.items} />)
+    menuData.map(item => <MenuHeader title={item.title} items={item.items} />)
    }
   </header>
  );
