@@ -6,7 +6,7 @@ function Card(props) {
         <div className={styles.element}>
             <div className={styles.content}>
                 <div className={styles.circle}>
-                    <img src={Download} className={styles.img} />
+                    
                 </div>
                 <h1 className={styles.iconTittle}></h1>
                 <p className={styles.iconContext}>

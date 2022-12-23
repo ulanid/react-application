@@ -1,7 +1,7 @@
 .container {
     box-sizing: border-box;
     background-color: #352961;
-    height: 614px;
+    height: 600px;
     width: 100%;
     margin-top: -35px;
     position: relative;
@@ -12,7 +12,7 @@
     font-size: 50px;
     text-transform: uppercase;
     font-weight: 900;
-    font-family: Arial Narrow, sans-serif;
+    font-family: Arial Narrow;
     padding-top: 112px;
 }
 
@@ -30,12 +30,12 @@
     width: 370px;
     background-color: white;
     position: relative;
-    margin-top: -19%;
+    margin-top: -150px;
     box-shadow: 0 5px 30px -5px rgb(0 0 0 / 20%);
-    border-radius: 7px;
+    border-radius: 5px;
     text-align: center;
     z-index: 2;
-    margin-left: 14%;
+    margin-left: 18%;
 }
 
 .pricingBox2 {
@@ -44,12 +44,12 @@
     width: 389px;
     background-color: white;
     position: relative;
-    margin-top: -42%;
+    margin-top: -600px;
     box-shadow: 0 5px 30px -5px rgb(0 0 0 / 20%);
     border-radius: 7px;
     text-align: center;
     z-index: 2;
-    margin-left: 37%;
+    margin-left: 38%;
 }
 
 .pricingBox3 {
@@ -58,18 +58,18 @@
     width: 370px;
     background-color: white;
     position: relative;
-    margin-top: -610px;
+    margin-top: -615px;
     box-shadow: 0 5px 30px -5px rgb(0 0 0 / 20%);
     border-radius: 7px;
     text-align: center;
     z-index: 1;
-    margin-left: 61%;
+    margin-left: 60%;
 }
 
 .tittles {
     color: #352961;
     padding-top: 20px;
-    font-family: Arial Narrow, sans-serif;
+    font-family: Arial Narrow;
 }
 
 .context1 {
@@ -116,16 +116,16 @@
 
 .CountUp {
     font-size: 60px;
-    font-weight: 300;
-    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-family: "Oswald";
     color: #352961;
     font-size: 4rem;
 }
 
 .CountUp2 {
     font-size: 60px;
-    font-weight: 300;
-    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-family: "Oswald";
     color: #352961;
     font-size: 4rem;
     margin-left: 25px;
