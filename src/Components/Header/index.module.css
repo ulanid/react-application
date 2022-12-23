@@ -1,0 +1,98 @@
+.navbar {
+    height: 60px;
+    width: 100%;
+    background-color: var(--GeneralColor);
+    ;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+}
+
+.siteLogo {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: sans-serif;
+    color: black;
+    margin-left: 40px;
+    padding: 5px 20px;
+}
+
+.menu {
+    position: relative;
+    width: 1340px;
+    height: 40px;
+    padding: 12px 0px;
+    text-align: left;
+}
+
+.ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    display: inline;
+    font-size: 20px;
+}
+
+.ul li {
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+}
+
+.a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    display: block;
+    background: none repeat scroll 0 0 transparent;
+    height: 2px;
+    width: 0;
+    background: black;
+    margin-left: 2px;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+
+a:hover::after {
+    width: 4%;
+}
+
+.a2 {
+    text-decoration: none;
+    color: white;
+}
+
+/* .li:hover {
+    text-decoration: underline;
+} */
+
+.li2 {
+    margin-left: 290px;
+}
+
+/* .li2:hover {
+    text-decoration: underline;
+} */
+
+.li3 {
+    margin-left: 0px;
+}
+
+.button {
+    position: relative;
+    color: white;
+    font-size: 18px;
+    box-sizing: border-box;
+    background-color: #dc3545;
+    height: 40px;
+    width: 105px;
+    border: none;
+    border-radius: 4px;
+    margin-top: -10px;
+    cursor: pointer;
+}

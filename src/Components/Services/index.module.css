@@ -1,0 +1,137 @@
+.body {
+    background-color: #f1f3f8;
+    width: 100%;
+    height: 1200px;
+    position: relative;
+}
+
+.container {
+    position: relative;
+    height: 223px;
+    width: 35%;
+    top: 176px;
+    padding-left: 12%;
+}
+
+.tittle {
+    color: #352961;
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Arial Narrow, sans-serif;
+    text-align: left;
+}
+
+.text {
+    color: grey;
+    font-size: 22px;
+    text-transform: none;
+    font-weight: 100;
+    font-family: Arial Narrow, sans-serif;
+    text-align: left;
+    width: 450px;
+    line-height: 30px;
+}
+
+.slider {
+    overflow: hidden;
+    inline-size: 100%;
+    margin: 4rem auto;
+    cursor: pointer;
+    display: inline-block;
+    flex-direction: row;
+}
+
+.elements {
+   margin-top: 20%;
+}
+
+.slider .elements {
+    display: flex;
+    flex-flow: row nowrap;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.slider .element {
+    scroll-snap-align: start;
+    flex: 100%;
+}
+
+.slider .elements::-webkit-scrollbar {
+    display: none;
+}
+
+.element {
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+    height: 510px;
+    width: 338px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.element:hover {
+    top: -10px;
+    box-shadow: 0 4px 30px -5px rgb(0 0 0 / 20%);
+}
+
+
+/* .element::before {
+    position: absolute;
+    content: "";
+    height: 7px;
+    background: #352961;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.element::after {
+    background: #dc3545;
+    width: 0;
+    z-index: 2;
+} */
+
+.content {
+    height: 367px;
+    width: 210px;
+    margin: 70px 60px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: #fafafa;
+}
+
+.element .circle:hover {
+    background-color: rgba(220, 53, 69, 0.1);;
+}
+
+.img {
+    height: 30px;
+    width: 30px;
+    padding-top: 23px;
+}
+
+.iconTittle {
+    font-size: 22px;
+    color: #352961;
+    font-weight: 900;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.iconContext {
+    text-align: left;
+    font-size: 18px;
+    color: grey;
+}

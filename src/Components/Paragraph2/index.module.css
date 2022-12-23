@@ -1,0 +1,180 @@
+.container {
+    width: 1170px;
+    height: 600px;
+    box-sizing: border-box;
+    position: relative;
+    top: 300px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gridBody {
+   display: grid;
+   grid-template-columns: 0.75fr 1fr ;
+   grid-template-rows: 1fr;
+}
+
+.gridItem1 {
+   box-sizing: border-box;
+   padding: 10px;
+}
+
+.gridItem2 {
+   box-sizing: border-box;
+   padding-left: 60px;
+}
+
+.text2 {
+    font-size: 17px;
+    text-transform: none;
+    font-weight: 300;
+    color: grey;
+    text-align: left;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1 {
+    color: #352961;
+    font-weight: bold;
+    font-size: 47px;
+    text-transform: uppercase;
+    font-family: Arial Narrow, sans-serif;
+    text-align: left;
+}
+
+.list {
+    padding: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style-image: url(./img/tick.svg);
+}
+
+.li {
+    display: list-item;
+    padding: 10px;
+    text-align: left;
+    color: grey;
+}
+
+.copterImg {
+    height: 580px;
+    width: 540px;
+}
+
+.box {
+    height: 360px;
+    width: 300px;
+    background-color: #352961;
+    position: absolute;
+    right: 65px;
+}
+
+.vectorImg {
+  height: 40px;
+  width: 40px;
+  padding-top: 20px;
+  padding-right: 200px;
+}
+
+.text3 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.p1 {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 21px;
+    text-transform: none;
+    font-weight: 100;
+    font-family: Arial Narrow, sans-serif;
+    text-align: left;
+    margin-left: 37px;
+    margin-top: 25px;
+    width: 220px;
+    line-height: 30px;
+}
+
+.p2 {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 21px;
+    text-transform: none;
+    font-weight: 100;
+    font-family: Arial Narrow, sans-serif;
+    margin-top: 20px;
+    margin-right: 126px;
+}
+
+.visitLink {
+    color: #dc3545;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.visitLink:hover {
+    color: #b3303d;
+}
+
+.boxImg {
+    height: 200px;
+    width: 80%;
+    padding-top: 400px;
+    padding-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.img {
+    margin-top: 50px;
+    margin-left: -30%;
+    height: 30px;
+    width: 30px;
+    display: inline;
+}
+
+.CountUp {
+   font-size: 50px;
+   margin-left: 20px;
+}
+
+.counterText {
+    color: grey;
+    margin-left: -55px;
+    margin-top: 1px;
+}
+
+.img2 {
+    margin-top: 40px;
+    margin-left: -30%;
+    height: 40px;
+    width: 40px;
+    display: inline;
+}
+
+.counterText2 {
+    color: grey;
+    margin-left: -10px;
+    margin-top: 1px;
+}
+
+.counterText3 {
+    color: grey;
+    margin-left: 10px;
+    margin-top: 1px;
+}
+
+.counterText4 {
+    color: grey;
+    margin-left: -60px;
+    margin-top: 1px;
+}
+
