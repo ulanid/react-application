@@ -5,7 +5,7 @@ import Monitor from "./img/monitor.png";
 import Refresh from "./img/refresh.png";
 import Message from "./img/message.png";
 import Box from "./img/box.png";
-import Card from "./Card"
+import Card from "./Card";
 import styles from "./index.module.css";
 
 function Services() {

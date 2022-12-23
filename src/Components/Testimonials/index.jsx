@@ -1,5 +1,5 @@
 import React from "react";
-import reactPlayer from "react-player";
+
 import styles from "./index.module.css";
 
 function Testimonials() {
