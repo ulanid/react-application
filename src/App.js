@@ -2,7 +2,7 @@ import React from 'react';
 
 import Header from './Components/Header/Index';
 import Home from './Components/Home/index';
-import Paragraph2 from './Components/Paragraph2/index';
+import Paragraph from './Components/Paragraph/index';
 import Projects from './Components/Projects/index';
 import Process from './Components/Process/index';
 import Testimonials from './Components/Testimonials/index';
@@ -18,7 +18,7 @@ function App() {
      <div className='App' id='app'>
         <Header />
         <Home />
-        <Paragraph2 />
+        <Paragraph />
         <Projects />
         <Process />
         <Testimonials />

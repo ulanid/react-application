@@ -7,7 +7,7 @@ import Download from "./img/download.png";
 import Monitor from "./img/monitor.png";
 import Conversation from "./img/conversation.png";
 
-function Paragraph2() {
+function Paragraph() {
   return(
     <div>
       <div className={styles.container}>
@@ -71,4 +71,4 @@ function Paragraph2() {
   );
 }
 
-export default Paragraph2;
+export default Paragraph;

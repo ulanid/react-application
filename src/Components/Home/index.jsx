@@ -74,7 +74,7 @@ function Home() {
               <img className={styles.img} src="https://preview.colorlib.com/theme/expert/images/img_4.jpg.webp"></img>
             </div>
           </div>
-          
+
           <div className={styles.buttonContainer}>
             <button className={styles.sliderButton}><img className={styles.arrow} src={leftArrow} /></button>
             <button className={styles.sliderButton}><img className={styles.arrow} src={rightArrow} /></button>
