@@ -143,6 +143,7 @@
     margin-top: 40px;
     border-radius: 4px;
     cursor: pointer;
+    transition:0.5s;
     background-color: white;
 }
 
@@ -163,6 +164,7 @@
     margin-top: 40px;
     border-radius: 4px;
     cursor: pointer;
+    transition:0.5s;
     background-color: white;
 }
 
@@ -185,6 +187,7 @@
     cursor: pointer;
     margin-left: 40px;
     background-color: white;
+    transition:0.5s;
 }
 
 .button3:hover {
@@ -195,9 +198,10 @@
 .dollarImg {
     height: 45px;
     width: 45px;
+
     margin-left: -20px;
 }
 
 .video {
-    margin-top: 15%;
+    margin-top: 10%;
 }

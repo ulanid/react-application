@@ -18,10 +18,7 @@ function Projects() {
                 <div className={styles.slides}>
                     <div className={styles.slide} id="slide1">
                         <a src="https://preview.colorlib.com/theme/expert/images/img_1.jpg.webp" className={styles.images}>
-                            <div className={styles.wotkText}>
-                                <h3>Project Name Here</h3>
-                                <span className={styles.category}>Illustartion</span>
-                            </div>
+                            
                         </a>
                     </div>
                     <div className={styles.slide} id="slide2">

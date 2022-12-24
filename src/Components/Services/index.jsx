@@ -50,7 +50,7 @@ function Services() {
           <div className={styles.element}>
             <div className={styles.content}>
               <div className={styles.circle}>
-                
+              <img src={Download} className={styles.img} />
               </div>
               <h1 className={styles.iconTittle}>WordPress</h1>
               <p className={styles.iconContext}>

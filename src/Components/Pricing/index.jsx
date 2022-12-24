@@ -53,7 +53,8 @@ function Pricing() {
           <button className={styles.button3}>Get started</button>
         </div>
         <div className={styles.video}>
-           <iframe src="https://player.vimeo.com/video/325355987?h=361c16f463" width="940" height="660" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+           {/* <iframe src="https://player.vimeo.com/video/325355987?h=361c16f463" width="940" height="660" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> */}
+           <iframe src="https://player.vimeo.com/video/759911151?h=3a3669479e&color=ffffff&title=0&byline=0&portrait=0" width="1000" height="700" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         </div>
        
     </div>

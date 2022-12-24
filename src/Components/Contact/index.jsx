@@ -15,11 +15,11 @@ function Contact() {
                        blanditiis consequuntur sunt nisi.
                     </p>
                     <div className={styles.form}>
-                     <input className={styles.contactForm1} type="text" name="name" placeholder="First name" />
-                     <input className={styles.contactForm2} type="text" name="name" placeholder="Last name" />
-                     <input className={styles.input} type="text" placeholder="Subject" />
-                     <input  className={styles.input} type="email" name="email" placeholder="Email" />
-                     <textarea  className={styles.message} id="subject" name="subject" placeholder=" Write your message here."></textarea>
+                     <input className={styles.contactForm1} type="text" name="name" placeholder="First name" required/>
+                     <input className={styles.contactForm2} type="text" name="name" placeholder="Last name" required/>
+                     <input className={styles.input} type="text" placeholder="Subject" required/>
+                     <input  className={styles.input} type="email" name="email" placeholder="Email" required/>
+                     <textarea  className={styles.message} id="subject" name="subject" placeholder=" Write your message here." required></textarea>
                     </div>
                     <div className={styles.button}>send message</div>
                 </div>
